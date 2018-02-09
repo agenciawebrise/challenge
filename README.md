@@ -7,7 +7,8 @@ O objetivo deste repositório é testar seu conhecimento em front-end, usando fe
 
 ## O que deve ser feito
 - Criar uma aplicação client-side que consulte uma api de produtos e mostre detalhes deste produto.  
-- Esta aplicação deve funcionar nos principais navegadores do mercado.  
+- Esta aplicação deve funcionar nos principais navegadores do mercado.
+- O código deve ser versionado utilizando Git
 
 Aqui está um protótipo do layout que pode ser desenvolvido, você pode melhorar ele se quiser :)
 
@@ -18,7 +19,7 @@ Desenvolva a página utilizando as seguintes ferramentas
 
 ### CSS
 - Utilize algum pré-processador (de preferência Sass)
-- Mifique seu código
+- Minifique seu código
 - Fique à vontade para usar qualquer lib/framework
 
 ### JS
