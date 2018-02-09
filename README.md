@@ -29,7 +29,6 @@ Desenvolva a página utilizando as seguintes ferramentas
 ### Diferenciais
 - Ter uma ótima experiência para o usuário, independente do dispositivo
 - Fazer um build do projeto numa pasta `dist`
-- Utilizar Promises
 - Criar um readme.md
 
 ## Como participar?
@@ -37,7 +36,7 @@ Aqui estão as informações necessárias para você começar
 - O Link da [API](http://agenciatray.commercesuite.com.br/web_api/products/8)
 - O Link do [protótipo](https://www.figma.com/file/dpk37h2Ko5Vtgb01WxaZ4THf/desafio)
 
-Crie um fork deste repositório e nos envie um pull request :sunglasses:  
+Crie um zip do seu projeto e envie para contato@webrise.com.br :sunglasses:  
 Lembre-se de nos dizer como rodar seu projeto.
 
 Boa sorte! :v:
