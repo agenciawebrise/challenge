@@ -1,0 +1,195 @@
+$web-font-path: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" !default;
+
+@import url($web-font-path);
+
+$font-family: 'Roboto', sans-serif !default;
+
+$green-color:  #27AE60 !default;
+
+html {
+	height: 100%;
+	min-height: 600px;
+}
+
+body {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: flex;
+	display: -webkit-flex;
+	min-height: 100%;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+#app {
+	width: 100%;
+	margin: 0 auto;
+	flex-direction: column;
+	flex: 1 0 auto;
+	display: flex;
+	display: -webkit-flex;
+}
+
+.main {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	flex: 1 0 auto;
+	justify-content: center;
+}
+
+.container-produto {
+	width: 100%;
+	max-width: 1110px;
+	display: flex;
+	display: -webkit-flex;
+}
+
+@media screen and (max-width: 1000px) {
+	.container-produto {
+		flex-direction: column;
+	}
+}
+
+.content {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.nome-produto {
+	font-family: $font-family;
+	font-size: 48px;
+	font-weight: 400;
+	letter-spacing: -1.2px;
+	color: #000;
+}
+
+.info-produto {
+	font-family: $font-family;
+	font-size: 14px;
+	font-weight: 400;
+	color: #828282;
+}
+
+.descricao-produto {
+	font-family: $font-family;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.preco-produto {
+	font-family: $font-family;
+	font-size: 48px;
+	line-height: 0;
+	font-weight: 400;
+	color: #27AE60;
+	margin-bottom: 10px;
+	margin-top: 48px;
+}
+
+.condicao-produto {
+	font-family: $font-family;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 40px;
+	color: #000000;
+}
+
+.slug {
+	font-family: $font-family;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #656667;
+	margin-bottom: -30px;
+}
+
+.center {
+	display: flex;
+    justify-content: center;
+}
+
+button {
+	-webkit-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+	cursor: pointer;
+}
+
+button:active {
+	outline: none !important;
+}
+
+button:focus {
+	outline:0 !important;
+}
+
+.btn-comprar {
+	border-radius: 4px;
+	height: 70px;
+	font-family: $font-family;
+	font-size: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border: transparent;
+	background-color: $green-color;
+	color: #ffffff;
+	-webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.25);
+}
+
+.btn-comprar:hover {
+	margin-top: 2px;
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.25);
+	background-color: mix($green-color, white, 90%);
+}
+
+
+.box-thumb {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.thumb {
+	max-width: 700px;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+.thumb li {
+	background-color: #e8eaec;
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+	list-style: none;
+}
+
+.thumb li:hover {
+	background-color: #d3d8dd;
+}
+
+.imagemGrande img {
+	max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.active {
+  background-color: $green-color !important;
+}

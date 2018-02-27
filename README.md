@@ -1,43 +1,46 @@
-![Desafio Aceito](https://cloud.githubusercontent.com/assets/3603793/23482593/669e9444-feae-11e6-9b6b-d1a53faf984a.png)
+# Teste WebRise
 
-# Objetivo
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
+> Fernando de Lima
+> nandodelima7@gmail.com
 
-O objetivo deste repositório é testar seu conhecimento em front-end, usando ferramentas do nosso dia a dia.
 
-## O que deve ser feito
-- Criar uma aplicação client-side que consulte uma api de produtos e mostre detalhes deste produto.  
-- Esta aplicação deve funcionar nos principais navegadores do mercado.
-- O código deve ser versionado utilizando Git
 
-Aqui está um protótipo do layout que pode ser desenvolvido, você pode melhorar ele se quiser :)
+## Arquivos Para Produção
 
-![PRs Welcome](desafio.png)
+Pasta dist
 
-## Desafio
-Desenvolva a página utilizando as seguintes ferramentas 
 
-### CSS
-- Utilize algum pré-processador (de preferência Sass)
-- Minifique seu código
-- Fique à vontade para usar qualquer lib/framework
+## Development Setup
 
-### JS
-- Você pode utilizar Angular/React/Vue se preferir
-- Se utilizar es6 garanta que ele rode em todos os navegadores
-- Minifique seu código
+``` bash
 
-### Diferenciais
-- Ter uma ótima experiência para o usuário, independente do dispositivo
-- Fazer um build do projeto numa pasta `dist`
-- Criar um readme.md
+# install dependencies
+npm install
+npm install vuex
+npm install lodash
+npm install axios
+npm install vue-loader
+npm install node-sass
 
-## Como participar?
-Aqui estão as informações necessárias para você começar
-- O Link da [API](http://agenciatray.commercesuite.com.br/web_api/products/8)
-- O Link do [protótipo](https://www.figma.com/file/dpk37h2Ko5Vtgb01WxaZ4THf/desafio)
+# serve with hot reload at localhost:8080
+npm run dev
 
-Crie um zip do seu projeto e envie para contato@webrise.com.br :sunglasses:  
-Lembre-se de nos dizer como rodar seu projeto.
+```
 
-Boa sorte! :v:
+
+## Build Setup
+
+``` bash
+
+# install dependencies
+npm install
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
